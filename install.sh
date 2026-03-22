@@ -1,6 +1,8 @@
 #!/bin/bash
 
-set -euo pipefail
+set -euxo pipefail
+
+mkdir -p ~/.ssh
 
 curl -fsSL https://github.com/umireon.gpg | gpg --import
 curl -fsSL https://github.com/web-flow.gpg | gpg --import
