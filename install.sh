@@ -12,3 +12,5 @@ git config --global user.signingkey "$(curl -s https://github.com/umireon.keys |
 git config --global commit.gpgsign true
 git config --global tag.gpgsign true
 git config --global gpg.ssh.allowedSignersFile "~/.ssh/allowed_signers"
+
+cp .bash_profile ~/.bash_profile
